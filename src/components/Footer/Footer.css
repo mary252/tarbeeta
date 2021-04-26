@@ -1,0 +1,125 @@
+footer {
+  min-height: 239px;
+  background-color: #444444;
+  color: #fff;
+  padding: 40px 0 25px 0;
+  border-bottom: solid 1px #979797;
+}
+
+.footer-bottom {
+  min-height: 80px;
+  background-color: #444444;
+  color: #fff;
+  padding: 25px 0 25px 0;
+}
+
+.footer-content-top ul li h5 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+}
+
+.footer-content-top ul li a {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+.footer-content-top ul li span,
+.footer-content-top ul li p {
+  font-size: 12px;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+}
+
+.map {
+  height: 70px;
+  max-width: 203px;
+  background: lightgray;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.map img {
+  height: 110px;
+  width: 100%;
+}
+
+.footer-logo img {
+  margin-bottom: 25px;
+  /* width: 189px;
+    height: 41px; */
+  object-fit: contain;
+}
+
+.download-icon,
+.social-icons img {
+  margin-right: 21px;
+}
+
+.footer-content-bottom h6,
+.footer-content-bottom ul li a {
+  font-size: 12px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.footer-content-bottom ul li {
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 769px) {
+  .social-icons img {
+    margin-right: 25px;
+  }
+
+  .footer-logo img {
+    margin-bottom: 0;
+    /* height: 40px; */
+  }
+
+  footer {
+    padding: 20px 0 15px 0;
+  }
+
+  .footer-bottom {
+    padding: 15px 0 10px 0;
+  }
+
+  .footer-content-bottom .level {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .footer-content-bottom ul li {
+    margin-left: 10px;
+  }
+
+  .footer-content-bottom ul li a {
+    font-size: 10px;
+    font-weight: 300;
+    white-space: nowrap;
+  }
+
+  .footer-content-bottom .level-right ul {
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+  }
+
+  .download-app li a img {
+    height: 35px;
+  }
+
+  .footer-content-top ul li h5 {
+    font-size: 10px;
+  }
+
+  .footer-content-top ul li span,
+  .footer-content-top ul li p {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,239 @@
+.stat {
+    min-height: 100px;
+}
+
+.bank-account-details {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #ffffff;
+    padding: 25px 0 20px 25px;
+}
+
+.bank-account-details h5 {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #a0a0a0;
+}
+
+
+.bank-account-details h5 span {
+    font-size: 14px;
+    font-weight: normal;
+    color: #4ec97c;
+    margin-left: 15px;
+}
+
+
+#wallet-info h4 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #aaaaaa;
+    margin-bottom: 11px;
+}
+
+#wallet-info h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #444444;
+}
+
+#wallet-info h3 span {
+    font-size: 16px;
+}
+
+.wallet-filters {
+    margin-bottom: 20px;
+}
+
+.wallet-table-head {
+    margin-bottom: 9px;
+    padding-left: 25px;
+    padding-right: 25px;
+    /* padding: 22px 25px; */
+}
+
+.wallet-table-head h4 {
+    font-size: 14px;
+    color: #989898;
+}
+
+.wallet-table-head h4 img {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.wallet-table-head h4 img:last-child {
+    margin-left: 2px;
+}
+
+.wallet-table {
+    /* min-height: 76px; */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e4eaee;
+    border-top: 1px solid transparent;
+    /* padding-left: 25px;
+    padding-top: 22px;
+    padding-bottom: 21px;
+    padding-right: 38px; */
+    padding: 22px 25px;
+}
+
+.wallet-table > div {
+    align-items: center;
+}
+
+.wallet-table:last-child {
+    border-bottom: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.wallet-table h3,
+.wallet-table p {
+    font-size: 14px;
+    color: #444444;
+}
+
+.wallet-table a {
+    font-size: 14px;
+    color: #579fe4;
+}
+
+.wallet-table h4 {
+    font-size: 14px;
+    color: #989898;
+}
+
+.balance-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #aaaaaa;
+    /* margin: 24px 0 7px 0; */
+}
+
+
+.balance-num {
+    font-size: 20px;
+    font-weight: 500;
+    color: #4ec97c;
+}
+
+.balance-num span {
+    font-size: 16px;
+}
+
+.bank-account-data {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e4eaee;
+    padding-bottom: 30px;
+    margin-right: 25px;
+}
+
+.bank-account-data:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+}
+
+@media screen and (max-width: 768px){
+
+    .balance-text {
+        font-size: 14px;
+        font-weight: 500;
+        color: #aaaaaa;
+        margin: 15px 0 7px 4px !important;
+    }
+
+    #wallet-info {
+        min-height: 130px;
+    }
+
+    #wallet-info h4 {
+        font-size: 12px;
+        margin-bottom: 3px;
+    }
+    
+    #wallet-info h3 {
+        font-size: 16px;
+    }
+    
+    #wallet-info h3 span {
+        font-size: 12px;
+    }
+    
+
+    .bank-account-details {
+        min-height: 164px;
+        padding: 17px 15px 0 15px;
+    }
+    
+    .bank-account-details h5 {
+        margin-bottom: 15px;
+        font-size: 12px;
+        color: #a0a0a0;
+    }
+    
+    .bank-account-details h5 span {
+        font-size: 12px;
+        margin-left: 15px;
+    }
+    
+    
+    .wallet-filters {
+        margin-bottom: 20px;
+    }
+
+    .wallet-table h3,
+    .wallet-table p {
+        font-size: 14px;
+        color: #444444;
+    }
+
+    .wallet-table {
+        height: auto;
+        border-bottom: 1px solid #e4eaee;
+        border-top: 1px solid transparent;
+        padding-left: 21px;
+        padding-top: 20px;
+        padding-right: 0;
+    }
+
+    .wallet-table > div {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .balance-column,
+    .wallet-info-column,
+    .bank-account-details-column {
+        padding-bottom: 0;
+    }
+
+    .wallet-filters > div {
+        margin-bottom: 0 !important;
+    }
+
+    .wallet-table h4 {
+        margin-bottom: 3px;
+    }
+
+    .bank-account-details h5:nth-child(4) {
+        margin-bottom: 15px;
+    }
+
+    .balance-text {
+        font-size: 14px;
+        font-weight: 500;
+        color: #aaaaaa;
+        /* margin: 15px 0 7px 4px !important; */
+    }
+
+    .balance-num {
+        font-size: 16px;
+    }
+    
+    .balance-num span {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,721 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Favorites Container renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Favorites
+    location={
+      Object {
+        "search": "",
+      }
+    }
+    match={
+      Object {
+        "params": Object {
+          "lang": "en",
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <div
+        className="section"
+      >
+        <div
+          className="container"
+        >
+          <BreadCrumb
+            activeRoute="Fashion"
+            history={
+              Array [
+                Object {
+                  "href": "/en",
+                  "name": "Tarbeeta",
+                },
+              ]
+            }
+          />
+          <Connect(ProductsGrid)
+            is_busy={true}
+            loadMore={[Function]}
+            match={
+              Object {
+                "params": Object {
+                  "lang": "en",
+                },
+              }
+            }
+            nosorting={true}
+            onLiked={[Function]}
+            openProductDetails={[Function]}
+            products={
+              Array [
+                Object {
+                  "avatar": "https://static.tarbeeta.com/images/shops/57/1557514373795.jpg",
+                  "colour_id": 3,
+                  "currency": "EGP",
+                  "description": "Quality polo t-shirts for Men",
+                  "id": 22,
+                  "image": "https://static.tarbeeta.com/images/products/22/colour/3/1557515144829.jpg",
+                  "is_liked": 1,
+                  "is_mine": 0,
+                  "price": 1125,
+                  "shop_id": 57,
+                  "shop_name": "Lacoste",
+                  "shop_username": "lacoste",
+                  "stock": 32,
+                  "title": "Polo t-shirt for Men",
+                  "variation_id": 74,
+                },
+                Object {
+                  "avatar": "https://static.tarbeeta.com/images/shops/57/1557514373795.jpg",
+                  "colour_id": 9,
+                  "currency": "EGP",
+                  "description": "Quality polo t-shirts for Men",
+                  "id": 22,
+                  "image": "https://static.tarbeeta.com/images/products/22/colour/9/1557515144750.jpg",
+                  "is_liked": 1,
+                  "is_mine": 0,
+                  "price": 1125,
+                  "shop_id": 57,
+                  "shop_name": "Lacoste",
+                  "shop_username": "lacoste",
+                  "stock": 33,
+                  "title": "Polo t-shirt for Men",
+                  "variation_id": 55,
+                },
+              ]
+            }
+            showMore={false}
+            title=""
+            withseller={true}
+          />
+        </div>
+      </div>,
+      "location": Object {
+        "search": "",
+      },
+      "match": Object {
+        "params": Object {
+          "lang": "en",
+        },
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="container"
+        >
+          <BreadCrumb
+            activeRoute="Fashion"
+            history={
+              Array [
+                Object {
+                  "href": "/en",
+                  "name": "Tarbeeta",
+                },
+              ]
+            }
+          />
+          <Connect(ProductsGrid)
+            is_busy={true}
+            loadMore={[Function]}
+            match={
+              Object {
+                "params": Object {
+                  "lang": "en",
+                },
+              }
+            }
+            nosorting={true}
+            onLiked={[Function]}
+            openProductDetails={[Function]}
+            products={
+              Array [
+                Object {
+                  "avatar": "https://static.tarbeeta.com/images/shops/57/1557514373795.jpg",
+                  "colour_id": 3,
+                  "currency": "EGP",
+                  "description": "Quality polo t-shirts for Men",
+                  "id": 22,
+                  "image": "https://static.tarbeeta.com/images/products/22/colour/3/1557515144829.jpg",
+                  "is_liked": 1,
+                  "is_mine": 0,
+                  "price": 1125,
+                  "shop_id": 57,
+                  "shop_name": "Lacoste",
+                  "shop_username": "lacoste",
+                  "stock": 32,
+                  "title": "Polo t-shirt for Men",
+                  "variation_id": 74,
+                },
+                Object {
+                  "avatar": "https://static.tarbeeta.com/images/shops/57/1557514373795.jpg",
+                  "colour_id": 9,
+                  "currency": "EGP",
+                  "description": "Quality polo t-shirts for Men",
+                  "id": 22,
+                  "image": "https://static.tarbeeta.com/images/products/22/colour/9/1557515144750.jpg",
+                  "is_liked": 1,
+                  "is_mine": 0,
+                  "price": 1125,
+                  "shop_id": 57,
+                  "shop_name": "Lacoste",
+                  "shop_username": "lacoste",
+                  "stock": 33,
+                  "title": "Polo t-shirt for Men",
+                  "variation_id": 55,
+                },
+              ]
+            }
+            showMore={false}
+            title=""
+            withseller={true}
+          />
+        </div>,
+        "className": "section",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <BreadCrumb
+              activeRoute="Fashion"
+              history={
+                Array [
+                  Object {
+                    "href": "/en",
+                    "name": "Tarbeeta",
+                  },
+                ]
+              }
+            />,
+            <Connect(ProductsGrid)
+              is_busy={true}
+              loadMore={[Function]}
+              match={
+                Object {
+                  "params": Object {
+                    "lang": "en",
+                  },
+                }
+              }
+              nosorting={true}
+              onLiked={[Function]}
+              openProductDetails={[Function]}
+              products={
+                Array [
+                  Object {
+                    "avatar": "https://static.tarbeeta.com/images/shops/57/1557514373795.jpg",
+                    "colour_id": 3,
+                    "currency": "EGP",
+                    "description": "Quality polo t-shirts for Men",
+                    "id": 22,
+                    "image": "https://static.tarbeeta.com/images/products/22/colour/3/1557515144829.jpg",
+                    "is_liked": 1,
+                    "is_mine": 0,
+                    "price": 1125,
+                    "shop_id": 57,
+                    "shop_name": "Lacoste",
+                    "shop_username": "lacoste",
+                    "stock": 32,
+                    "title": "Polo t-shirt for Men",
+                    "variation_id": 74,
+                  },
+                  Object {
+                    "avatar": "https://static.tarbeeta.com/images/shops/57/1557514373795.jpg",
+                    "colour_id": 9,
+                    "currency": "EGP",
+                    "description": "Quality polo t-shirts for Men",
+                    "id": 22,
+                    "image": "https://static.tarbeeta.com/images/products/22/colour/9/1557515144750.jpg",
+                    "is_liked": 1,
+                    "is_mine": 0,
+                    "price": 1125,
+                    "shop_id": 57,
+                    "shop_name": "Lacoste",
+                    "shop_username": "lacoste",
+                    "stock": 33,
+                    "title": "Polo t-shirt for Men",
+                    "variation_id": 55,
+                  },
+                ]
+              }
+              showMore={false}
+              title=""
+              withseller={true}
+            />,
+          ],
+          "className": "container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "activeRoute": "Fashion",
+              "history": Array [
+                Object {
+                  "href": "/en",
+                  "name": "Tarbeeta",
+                },
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "filtersBar": undefined,
+              "goToDetails": undefined,
+              "is_busy": true,
+              "loadMore": [Function],
+              "match": Object {
+                "params": Object {
+                  "lang": "en",
+                },
+              },
+              "nosorting": true,
+              "onLiked": [Function],
+              "openProductDetails": [Function],
+              "products": Array [
+                Object {
+                  "avatar": "https://static.tarbeeta.com/images/shops/57/1557514373795.jpg",
+                  "colour_id": 3,
+                  "currency": "EGP",
+                  "description": "Quality polo t-shirts for Men",
+                  "id": 22,
+                  "image": "https://static.tarbeeta.com/images/products/22/colour/3/1557515144829.jpg",
+                  "is_liked": 1,
+                  "is_mine": 0,
+                  "price": 1125,
+                  "shop_id": 57,
+                  "shop_name": "Lacoste",
+                  "shop_username": "lacoste",
+                  "stock": 32,
+                  "title": "Polo t-shirt for Men",
+                  "variation_id": 74,
+                },
+                Object {
+                  "avatar": "https://static.tarbeeta.com/images/shops/57/1557514373795.jpg",
+                  "colour_id": 9,
+                  "currency": "EGP",
+                  "description": "Quality polo t-shirts for Men",
+                  "id": 22,
+                  "image": "https://static.tarbeeta.com/images/products/22/colour/9/1557515144750.jpg",
+                  "is_liked": 1,
+                  "is_mine": 0,
+                  "price": 1125,
+                  "shop_id": 57,
+                  "shop_name": "Lacoste",
+                  "shop_username": "lacoste",
+                  "stock": 33,
+                  "title": "Polo t-shirt for Men",
+                  "variation_id": 55,
+                },
+              ],
+              "select_filter": undefined,
+              "showMore": false,
+              "sort": undefined,
+              "title": "",
+              "withseller": true,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <div
+          className="section"
+        >
+          <div
+            className="container"
+          >
+            <BreadCrumb
+              activeRoute="Fashion"
+              history={
+                Array [
+                  Object {
+                    "href": "/en",
+                    "name": "Tarbeeta",
+                  },
+                ]
+              }
+            />
+            <Connect(ProductsGrid)
+              is_busy={true}
+              loadMore={[Function]}
+              match={
+                Object {
+                  "params": Object {
+                    "lang": "en",
+                  },
+                }
+              }
+              nosorting={true}
+              onLiked={[Function]}
+              openProductDetails={[Function]}
+              products={
+                Array [
+                  Object {
+                    "avatar": "https://static.tarbeeta.com/images/shops/57/1557514373795.jpg",
+                    "colour_id": 3,
+                    "currency": "EGP",
+                    "description": "Quality polo t-shirts for Men",
+                    "id": 22,
+                    "image": "https://static.tarbeeta.com/images/products/22/colour/3/1557515144829.jpg",
+                    "is_liked": 1,
+                    "is_mine": 0,
+                    "price": 1125,
+                    "shop_id": 57,
+                    "shop_name": "Lacoste",
+                    "shop_username": "lacoste",
+                    "stock": 32,
+                    "title": "Polo t-shirt for Men",
+                    "variation_id": 74,
+                  },
+                  Object {
+                    "avatar": "https://static.tarbeeta.com/images/shops/57/1557514373795.jpg",
+                    "colour_id": 9,
+                    "currency": "EGP",
+                    "description": "Quality polo t-shirts for Men",
+                    "id": 22,
+                    "image": "https://static.tarbeeta.com/images/products/22/colour/9/1557515144750.jpg",
+                    "is_liked": 1,
+                    "is_mine": 0,
+                    "price": 1125,
+                    "shop_id": 57,
+                    "shop_name": "Lacoste",
+                    "shop_username": "lacoste",
+                    "stock": 33,
+                    "title": "Polo t-shirt for Men",
+                    "variation_id": 55,
+                  },
+                ]
+              }
+              showMore={false}
+              title=""
+              withseller={true}
+            />
+          </div>
+        </div>,
+        "location": Object {
+          "search": "",
+        },
+        "match": Object {
+          "params": Object {
+            "lang": "en",
+          },
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="container"
+          >
+            <BreadCrumb
+              activeRoute="Fashion"
+              history={
+                Array [
+                  Object {
+                    "href": "/en",
+                    "name": "Tarbeeta",
+                  },
+                ]
+              }
+            />
+            <Connect(ProductsGrid)
+              is_busy={true}
+              loadMore={[Function]}
+              match={
+                Object {
+                  "params": Object {
+                    "lang": "en",
+                  },
+                }
+              }
+              nosorting={true}
+              onLiked={[Function]}
+              openProductDetails={[Function]}
+              products={
+                Array [
+                  Object {
+                    "avatar": "https://static.tarbeeta.com/images/shops/57/1557514373795.jpg",
+                    "colour_id": 3,
+                    "currency": "EGP",
+                    "description": "Quality polo t-shirts for Men",
+                    "id": 22,
+                    "image": "https://static.tarbeeta.com/images/products/22/colour/3/1557515144829.jpg",
+                    "is_liked": 1,
+                    "is_mine": 0,
+                    "price": 1125,
+                    "shop_id": 57,
+                    "shop_name": "Lacoste",
+                    "shop_username": "lacoste",
+                    "stock": 32,
+                    "title": "Polo t-shirt for Men",
+                    "variation_id": 74,
+                  },
+                  Object {
+                    "avatar": "https://static.tarbeeta.com/images/shops/57/1557514373795.jpg",
+                    "colour_id": 9,
+                    "currency": "EGP",
+                    "description": "Quality polo t-shirts for Men",
+                    "id": 22,
+                    "image": "https://static.tarbeeta.com/images/products/22/colour/9/1557515144750.jpg",
+                    "is_liked": 1,
+                    "is_mine": 0,
+                    "price": 1125,
+                    "shop_id": 57,
+                    "shop_name": "Lacoste",
+                    "shop_username": "lacoste",
+                    "stock": 33,
+                    "title": "Polo t-shirt for Men",
+                    "variation_id": 55,
+                  },
+                ]
+              }
+              showMore={false}
+              title=""
+              withseller={true}
+            />
+          </div>,
+          "className": "section",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <BreadCrumb
+                activeRoute="Fashion"
+                history={
+                  Array [
+                    Object {
+                      "href": "/en",
+                      "name": "Tarbeeta",
+                    },
+                  ]
+                }
+              />,
+              <Connect(ProductsGrid)
+                is_busy={true}
+                loadMore={[Function]}
+                match={
+                  Object {
+                    "params": Object {
+                      "lang": "en",
+                    },
+                  }
+                }
+                nosorting={true}
+                onLiked={[Function]}
+                openProductDetails={[Function]}
+                products={
+                  Array [
+                    Object {
+                      "avatar": "https://static.tarbeeta.com/images/shops/57/1557514373795.jpg",
+                      "colour_id": 3,
+                      "currency": "EGP",
+                      "description": "Quality polo t-shirts for Men",
+                      "id": 22,
+                      "image": "https://static.tarbeeta.com/images/products/22/colour/3/1557515144829.jpg",
+                      "is_liked": 1,
+                      "is_mine": 0,
+                      "price": 1125,
+                      "shop_id": 57,
+                      "shop_name": "Lacoste",
+                      "shop_username": "lacoste",
+                      "stock": 32,
+                      "title": "Polo t-shirt for Men",
+                      "variation_id": 74,
+                    },
+                    Object {
+                      "avatar": "https://static.tarbeeta.com/images/shops/57/1557514373795.jpg",
+                      "colour_id": 9,
+                      "currency": "EGP",
+                      "description": "Quality polo t-shirts for Men",
+                      "id": 22,
+                      "image": "https://static.tarbeeta.com/images/products/22/colour/9/1557515144750.jpg",
+                      "is_liked": 1,
+                      "is_mine": 0,
+                      "price": 1125,
+                      "shop_id": 57,
+                      "shop_name": "Lacoste",
+                      "shop_username": "lacoste",
+                      "stock": 33,
+                      "title": "Polo t-shirt for Men",
+                      "variation_id": 55,
+                    },
+                  ]
+                }
+                showMore={false}
+                title=""
+                withseller={true}
+              />,
+            ],
+            "className": "container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "activeRoute": "Fashion",
+                "history": Array [
+                  Object {
+                    "href": "/en",
+                    "name": "Tarbeeta",
+                  },
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "filtersBar": undefined,
+                "goToDetails": undefined,
+                "is_busy": true,
+                "loadMore": [Function],
+                "match": Object {
+                  "params": Object {
+                    "lang": "en",
+                  },
+                },
+                "nosorting": true,
+                "onLiked": [Function],
+                "openProductDetails": [Function],
+                "products": Array [
+                  Object {
+                    "avatar": "https://static.tarbeeta.com/images/shops/57/1557514373795.jpg",
+                    "colour_id": 3,
+                    "currency": "EGP",
+                    "description": "Quality polo t-shirts for Men",
+                    "id": 22,
+                    "image": "https://static.tarbeeta.com/images/products/22/colour/3/1557515144829.jpg",
+                    "is_liked": 1,
+                    "is_mine": 0,
+                    "price": 1125,
+                    "shop_id": 57,
+                    "shop_name": "Lacoste",
+                    "shop_username": "lacoste",
+                    "stock": 32,
+                    "title": "Polo t-shirt for Men",
+                    "variation_id": 74,
+                  },
+                  Object {
+                    "avatar": "https://static.tarbeeta.com/images/shops/57/1557514373795.jpg",
+                    "colour_id": 9,
+                    "currency": "EGP",
+                    "description": "Quality polo t-shirts for Men",
+                    "id": 22,
+                    "image": "https://static.tarbeeta.com/images/products/22/colour/9/1557515144750.jpg",
+                    "is_liked": 1,
+                    "is_mine": 0,
+                    "price": 1125,
+                    "shop_id": 57,
+                    "shop_name": "Lacoste",
+                    "shop_username": "lacoste",
+                    "stock": 33,
+                    "title": "Polo t-shirt for Men",
+                    "variation_id": 55,
+                  },
+                ],
+                "select_filter": undefined,
+                "showMore": false,
+                "sort": undefined,
+                "title": "",
+                "withseller": true,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;

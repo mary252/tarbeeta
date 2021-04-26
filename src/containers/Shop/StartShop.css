@@ -1,0 +1,113 @@
+.checkbox-text {
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.shop-avatar {
+  margin-bottom: 7px;
+  width: 140px;
+  height: 140px;
+  background: #fff;
+  border-radius: 50%;
+  background-size: contain !important;
+  background-position: center !important;
+  border: 1px solid #d8d8d8;
+  background-repeat: no-repeat !important;
+}
+
+.settings-avatar {
+  position: relative;
+}
+
+.settings-avatar button {
+  right: 40px !important;
+  top: 5px !important;
+}
+
+.shop-cover {
+  margin-bottom: 22px;
+  height: 300px;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  border: solid 1px #d8d8d8;
+  max-width: 633px;
+  background-repeat: no-repeat !important;
+  position: relative;
+}
+
+.drop-zone {
+  height: 100%;
+  cursor: pointer;
+  background-size: contain !important;
+  position: relative;
+}
+
+.drop-zone div,
+.drop-zone > div > input {
+  outline: none !important;
+}
+
+.drop-zone > div {
+  height: 300px;
+}
+
+.drop-zone-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.checkbox-text {
+  width: 483px;
+  /* height: 17px; */
+  font-size: 14px;
+  color: #565656;
+}
+
+
+/* .white-box-table {
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px 0;
+} */
+
+/* 1087px */
+
+@media screen and (max-width: 1088px) {
+  .shop-avatar {
+    width: 80px;
+    height: 80px;
+  }
+
+  .shop-cover,
+  .drop-zone > div {
+    height: 127px;
+  }
+
+  .drop-zone-content p {
+    text-align: center;
+  }
+
+  .saved-address-text {
+    margin-right: 12px;
+    color: #444444;
+  }
+
+  .delete-btn-mobile {
+    text-align: right;
+  }
+
+  .edit-btn-mobile {
+    text-align: left;
+  }
+
+}

@@ -1,0 +1,94 @@
+input {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  width: 300px;
+  z-index: 1000;
+}
+
+.suggestions {
+  border: 1px solid #999;
+  border-top-width: 0;
+  list-style: none;
+  margin-top: 0;
+  padding-left: 0;
+  background: white;
+  position: absolute;
+  width: 100%;
+  top: 40px;
+  z-index: 1000;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.suggestions div {
+  padding: 0.5rem;
+}
+
+.suggestion-active,
+.suggestions div:hover {
+  background-color: rgb(224, 222, 222);
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.over-lay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 80;
+}
+.row-suggestion {
+  display: flex;
+}
+
+.row-suggestion h1 {
+  font-size: 14px;
+}
+
+.hint {
+  color: #008bff;
+  font-size: 16px;
+}
+.in {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.suggestions-wrapper {
+  z-index: 80;
+}
+
+.autocomplete-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  z-index: -1;
+}
+
+.magnifying-glass {
+  height: 18px;
+  width: 18px;
+  position: absolute;
+  right: 20px;
+  top: 11px;
+  cursor: pointer;
+  background: url("../../assets/images/magnifying-glass.svg");
+}

@@ -1,0 +1,477 @@
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"] {
+  height: 40px;
+  width: 100%;
+  padding: 0px 13px;
+  font-size: 14px;
+  color: #444;
+  border: solid 1px #e8e8e8;
+  border-radius: 5px;
+  outline-style: none;
+}
+
+.checkbox-container,
+.radio-button-container {
+  margin-right: 6px;
+  width: 14px;
+  height: 14px;
+  border-radius: 5px;
+  border: solid 1px #e8e8e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 8px;
+  display: flex;
+}
+
+.radio-button-container {
+  border-radius: 50%;
+  align-items: center;
+}
+.radio-button-container .dot {
+  width: 6px;
+  height: 6px;
+  background-color: #3e96d2;
+  border-radius: 50%;
+}
+
+.checkbox-container.active,
+.radio-button-container.active {
+  border-color: #3e96d2;
+}
+
+.custom-select {
+  height: 40px;
+  width: 100%;
+  /* background-color: #fff; */
+  /* border: solid 1px #e8e8e8; */
+  /* border-radius: 5px; */
+  /* padding: 0px 13px; */
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.custom-select select {
+  height: 40px;
+  -webkit-appearance: none;
+  font-size: 14px;
+  outline-style: none;
+  color: #444;
+  background-color: #fff;
+  border: solid 1px #e8e8e8;
+  border-radius: 5px;
+  /* border: 0px; */
+  /* padding: 0px; */
+  width: 100%;
+  cursor: pointer;
+  padding: 0px 13px;
+}
+
+.custom-select::after {
+  content: url("../../assets/images/arrow-down.svg");
+  position: absolute;
+  right: 13px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.clickable-square {
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  margin-right: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  position: relative;
+  border: none;
+}
+
+.clickable-square .inner-color {
+  width: 24px;
+  height: 24px;
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  background-size: cover;
+}
+
+.clickable-square .selected {
+  display: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background-color: #f3444a;
+  align-items: center;
+  justify-content: center;
+}
+
+.clickable-square.txt {
+  border: solid 1px #979797;
+  color: #484848;
+  font-size: 9px;
+  align-items: center;
+  justify-content: center;
+}
+
+.clickable-square.txt:hover {
+  border-color: #f3444a;
+}
+
+.clickable-square.active {
+  border: solid 1px #f3444a;
+}
+
+.clickable-square.active .selected {
+  display: flex;
+}
+
+.clickable-square:last-child {
+  margin-right: 0px;
+}
+
+.left-icon {
+  margin-right: 7px;
+  font-size: 16px;
+}
+
+.slider-button {
+  width: 35px;
+  height: 58px;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.slider-button img {
+  height: 18px;
+}
+
+.slider-button.left {
+  left: 0;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.slider-button.right {
+  right: 0;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.slider-button.right img {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+
+.t-button {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  /* padding: 9px 45px; */
+  /* padding: 9px 15px; */
+  padding: 0px 15px;
+  border-radius: 20px;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+.t-button.full {
+  width: 100%;
+}
+
+.t-button.half {
+  width: 50%;
+}
+
+.t-button.auto {
+  width: fit-content;
+  width: intrinsic;
+  width: -moz-max-content;
+}
+
+.t-button span {
+  font-size: 14px;
+  font-weight: 500 !important;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0;
+  letter-spacing: normal;
+}
+
+.t-button.has-text-weight-semibold span {
+  font-weight: 600;
+}
+
+.t-button:hover {
+  opacity: 0.8;
+}
+
+.t-button.blue,
+.t-button.facebook,
+.t-button.red,
+.t-button.green,
+.t-button.grad-blue {
+  color: #fff;
+}
+
+.t-button.blue {
+  background-color: #5b98e5;
+}
+
+.t-button.transparent {
+  background-color: transparent;
+}
+
+.t-button.facebook {
+  background-color: #4065b4;
+}
+
+.t-button.red {
+  background-color: #ef464f;
+}
+
+.t-button.green {
+  background-color: #4ec97c;
+}
+
+.t-button.grad-blue {
+  background-image: linear-gradient(78deg, #36d1dc, #5b98e5);
+}
+
+.t-button.outline {
+  background-color: transparent;
+}
+
+.t-button.blue.outline {
+  border: solid 1px #5b98e5;
+  color: #5b98e5;
+}
+
+.t-button.red.outline {
+  border: solid 1px #ef464f;
+  color: #ef464f;
+}
+
+.t-button.green.outline {
+  border: solid 1px #4ec97c;
+  color: #4ec97c;
+}
+
+.t-button.gray.outline {
+  border: solid 1px #a6a6a6;
+  color: #a6a6a6;
+}
+
+.t-button.gray {
+  color: #999;
+  font-weight: 500;
+}
+
+.textbox {
+  resize: none;
+  border: solid 1px #e8e8e8;
+  border-radius: 5px;
+  width: 100%;
+  padding: 13px;
+  font-size: 14px;
+  color: #484848;
+  display: block;
+}
+
+.color-button {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 1px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.color-button:focus {
+  border-radius: 5px;
+  border: solid 1px #f3444a;
+  outline: none;
+}
+.color-button:visited {
+  border-radius: 5px;
+  border: solid 1px #f3444a;
+}
+
+.color-button div {
+  width: 14px;
+  height: 14px;
+  background-color: #f3444a;
+  color: #ffffff;
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  border-radius: 45%;
+  font-size: 10px;
+}
+.size-button {
+  cursor: pointer;
+  outline: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 5px;
+  border: solid 1px #999999;
+  margin-right: 10px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.size-button span {
+  color: #999999;
+}
+
+.upload-button {
+  width: 100%;
+  height: 70px;
+  border-radius: 5px;
+  border: solid 1px #e8e8e8;
+  background-color: #ffffff;
+  outline: none;
+  position: relative;
+  background-image: "../../assets/images/image-grey-copy-2.png";
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.upload-button input {
+  cursor: pointer;
+}
+
+.upload-button div {
+  width: 14px;
+  height: 14px;
+  background-color: #f3444a;
+  color: #ffffff;
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  border-radius: 45%;
+  font-size: 10px;
+}
+
+.image-text {
+  font-family: Aleo;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #999999;
+}
+
+.arrow-button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 35px;
+  height: 42px;
+  transform: rotate(-180deg);
+  opacity: 0.8;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 10px;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  margin: auto;
+}
+
+/* @media screen and (max-width: 1545px) {
+  .upload-button {
+    height: 75px;
+  }
+} */
+
+@media screen and (max-width: 1035px) {
+  .upload-button {
+    height: 125px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .slider-button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .upload-button {
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .upload-button {
+    height: 82px;
+  }
+
+  .arrow-button {
+    width: 21px;
+    height: 34px;
+    padding: 5px;
+  }
+}
+.file-upload {
+  display: none;
+}
+.fixed-error {
+  width: 100%;
+  padding: 8px 16px;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+.empty-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  /* background: white; */
+  height: 100%;
+  width: 100%;
+}
+
+.input-error-message {
+  font-family: Rubik;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #f3444a;
+}
+
+.error-border {
+  border: 1px solid #f3444a !important;
+}

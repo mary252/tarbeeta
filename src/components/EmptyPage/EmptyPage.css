@@ -1,0 +1,117 @@
+.Empty-Page {
+  padding-top: 25px;
+  padding-bottom: 122px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* height: calc(100vh - 500px); */
+}
+
+.shop-doesnt-exists,
+.no-orders-empty {
+  background: url("../../assets/images/blob-background.svg") no-repeat;
+  width: 353px;
+  height: 357px;
+  padding-top: 114px;
+  background-position: center;
+}
+
+.cart-empty {
+  background: url("../../assets/images/blob-background2.svg") no-repeat;
+  width: 559px;
+  height: 542px;
+  padding-top: 114px;
+  background-position: center;
+}
+
+.no-notifications {
+  background: url("../../assets/images/blob-background3.svg") no-repeat;
+  width: 336px;
+  height: 311px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-position: center;
+}
+
+.shop-doesnt-exists > img,
+.no-orders-empty > img,
+.cart-empty > img,
+.no-notifications > img {
+  margin-bottom: 35px;
+}
+
+
+.shop-doesnt-exists > p {
+  margin-bottom: 50px;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: 0.47px;
+  text-align: center;
+  color: #444444;
+}
+
+.shop-doesnt-exists > p span {
+  font-weight: bold;
+}
+
+.Empty-Page > div {
+  text-align: center;
+}
+
+.Empty-Page p {
+    text-align: center;
+}
+
+.Empty-Page > div > img {
+  /* height: 150px; */
+  /* margin-bottom: 40px; */
+}
+
+.Empty-Page h1 {
+  font-size: 26px;
+  /* margin-bottom: 20px; */
+}
+
+
+
+.no-orders-empty p:nth-child(2),
+.cart-empty p:nth-child(2),
+.no-notifications p:nth-child(2) {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.19;
+    letter-spacing: 0.53px;
+    color: #444444;
+    text-align: center;
+}
+
+@media only screen and (max-width: 460px) {
+    .shop-doesnt-exists,
+    .no-orders-empty,
+    .cart-empty,
+    .no-notifications {
+        background-size: contain;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+  .Empty-Page > div > img {
+    height: 100px;
+    margin-bottom: 20px;
+  }
+
+    
+}
+
+@media only screen and (max-width: 321px) {
+  .Empty-Page > div > img {
+    height: 60px;
+    margin-bottom: 10px;
+  }
+
+  .Empty-Page h1 {
+    font-size: 20px;
+  }
+}

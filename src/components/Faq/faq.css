@@ -1,0 +1,11 @@
+.faq-header {
+  display: flex;
+  flex-direction: row;
+}
+.faq-icon {
+  margin-right: 11px;
+}
+.faq-title {
+  color: #838383;
+  font-size: 14px;
+}

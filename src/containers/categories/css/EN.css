@@ -1,0 +1,108 @@
+.category-title{
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #444444;
+    margin-bottom: 30px;
+  }
+  .category-div{
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .category-name {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #444444;
+  }
+  .View-All {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #f3444a;
+  }
+  .sep {
+    width: 100%;
+    height: 1px;
+    background-color: #d8d8d8;
+    margin-bottom: 19px;
+  }
+  .subcategory-thumb {
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+    margin-right: 25px;
+  }
+  .item-name{
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #444444;
+}
+  .item{
+      padding-left: 6px;
+      display: flex;
+      align-items: center;
+  }
+
+  .sys-message {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height :210px;
+  }
+
+  .top-cover-text {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    position: absolute;
+    left: 23px;
+    bottom: 18px;
+  }
+
+  @media screen and (max-width: 1034px) {
+    .sys-message {
+      height: 158px;
+    }
+  }
+  @media screen and (max-width: 818px) {
+    .sys-message {
+      height: 113px;
+    }
+  }
+  @media screen and (max-width: 415px) {
+    .sys-message {
+      height: 170px;
+    }
+    .subcategory-thumb {
+      width: 40px;
+      height: 40px;
+    }
+    .item-name {
+      font-size: 10px;
+    }
+  }

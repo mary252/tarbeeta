@@ -1,0 +1,12 @@
+.custom-checkbox-container {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.styled-checkbox {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  border-radius: 5px;
+  transition: all 150ms;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="8px" viewBox="0 0 14 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>7BDCA675-61D5-4ACB-961B-8762D9797911</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.000123422907 7.5838 0.000123422907 7.5838 14.0000583 0 14.0000583"></polygon>
+    </defs>
+    <g id="pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cart-1.4" transform="translate(-430.000000, -78.000000)">
+            <g id="header" transform="translate(0.000000, 40.000000)">
+                <g id="arrow-down" transform="translate(437.083333, 42.000000) rotate(-270.000000) translate(-437.083333, -42.000000) translate(433.000000, 35.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M0.29155,14.0000583 C0.21455,14.0000583 0.138133333,13.969725 0.0809666667,13.910225 C-0.03045,13.7935583 -0.0263666667,13.609225 0.0897166667,13.4978083 L6.87038333,7.00005833 L0.0897166667,0.502308333 C-0.0263666667,0.390891667 -0.03045,0.206558333 0.0809666667,0.0898916667 C0.192966667,-0.0256083333 0.3773,-0.0308583333 0.493383333,0.0811416667 L7.49396667,6.789475 C7.55113333,6.84430833 7.5838,6.920725 7.5838,7.00005833 C7.5838,7.07939167 7.55113333,7.15580833 7.49396667,7.21064167 L0.493383333,13.918975 C0.4368,13.973225 0.363883333,14.0000583 0.29155,14.0000583" id="Fill-1" fill="#444444" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

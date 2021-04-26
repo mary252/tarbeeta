@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="213.42" height="183.281" viewBox="0 0 213.42 183.281">
+    <defs>
+        <style>
+            .cls-1{fill:rgba(90,90,90,.1)}.cls-2{fill:#f3444a}
+        </style>
+    </defs>
+    <g id="Group_92" data-name="Group 92" transform="translate(-246.5 -19.995)">
+        <ellipse id="Ellipse_8" cx="106.71" cy="14.469" class="cls-1" data-name="Ellipse 8" rx="106.71" ry="14.469" transform="translate(246.5 174.338)"/>
+        <g id="Group_130" data-name="Group 130" transform="translate(258.5 19.995)">
+            <g id="Group_65" data-name="Group 65">
+                <path id="Path_54" d="M602.708 627.271c-16.763 0-94.378-56.2-95-115.526-.371-36.556 23.007-55.476 43.124-60.577 19.683-4.939 39.128 1.322 51.872 16.439 12.751-15.125 32.2-21.4 51.864-16.439 20.124 5.1 43.5 24.021 43.131 60.569-.613 59.339-78.229 115.534-94.991 115.534z" class="cls-2" data-name="Path 54" transform="translate(-507.708 -449.498)"/>
+            </g>
+        </g>
+    </g>
+</svg>

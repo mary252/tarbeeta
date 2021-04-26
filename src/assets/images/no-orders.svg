@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="213.42" height="183.276" viewBox="0 0 213.42 183.276">
+    <defs>
+        <style>
+            .cls-1{fill:rgba(90,90,90,.1)}.cls-2{fill:#eab886}.cls-3{fill:#3280d6}
+        </style>
+    </defs>
+    <g id="Group_92" data-name="Group 92" transform="translate(-246.5 -20)">
+        <ellipse id="Ellipse_8" cx="106.71" cy="14.469" class="cls-1" data-name="Ellipse 8" rx="106.71" ry="14.469" transform="translate(246.5 174.338)"/>
+        <path id="Path_79" d="M447.922 26.029v156.749a6.029 6.029 0 0 1-6.029 6.029H261.029a6.029 6.029 0 0 1-6.029-6.029V26.029A6.029 6.029 0 0 1 261.029 20h180.864a6.029 6.029 0 0 1 6.029 6.029z" class="cls-2" data-name="Path 79" transform="translate(1.749)"/>
+        <path id="Path_80" d="M309.259 64.115H255V40h54.259a6.029 6.029 0 0 1 6.029 6.029v12.057a6.029 6.029 0 0 1-6.029 6.029z" class="cls-3" data-name="Path 80" transform="translate(1.749 4.115)"/>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+.accordin-header {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.accordin-arrow {
+  margin-right: 20px;
+}
+.accordin-body {
+  margin-top: 18px;
+  margin-left: 64px;
+}
+.accordin-header-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #444444;
+}
+.content-text {
+  font-size: 16px;
+  color: #444444;
+}

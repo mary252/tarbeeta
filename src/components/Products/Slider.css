@@ -1,0 +1,25 @@
+.product-slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.product-slider h4, .product-slider a {
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.product-slider h4 {
+    color: #444444;
+}
+
+
+@media only screen and (max-width: 768px){
+    
+
+    .scroll-mobile-sliders {
+        overflow-x: scroll;
+    }
+}

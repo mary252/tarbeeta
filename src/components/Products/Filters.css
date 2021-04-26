@@ -1,0 +1,86 @@
+.filters {
+  margin-top: 13px;
+}
+
+.filters h4 {
+  font-weight: 700 !important;
+  font-size: 14px !important;
+}
+
+.filters span {
+  font-weight: normal !important;
+}
+
+.filters .criteria h4 {
+  font-size: 14px !important;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #444444;
+  margin-bottom: 17px;
+}
+
+.filters .criteria {
+  margin-bottom: 25px;
+  max-height: 170px;
+  overflow-y: auto;
+}
+
+.filters-head img {
+  margin-right: 8px;
+}
+
+.filters .criteria a {
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #444444;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.filters .criteria .option {
+  margin-bottom: 5px;
+  display: flex;
+  cursor: pointer;
+}
+
+.filters .criteria .option:hover span {
+  color: #3e96d2 !important;
+}
+
+.filters .criteria .wrap {
+  display: inline-flex;
+  align-items: center;
+}
+
+.filters .criteria .option span {
+  line-height: normal;
+  font-size: 14px;
+}
+
+.filters .criteria .option span::selection {
+  background: transparent; /* WebKit/Blink Browsers */
+}
+
+.filters .criteria .option span::-moz-selection {
+  background: transparent; /* Gecko Browsers */
+}
+.row-pic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.over-flaw-raw {
+  overflow-y: auto;
+  display: flex;
+}
+.price-div-mobile {
+  margin-bottom: 20px;
+}

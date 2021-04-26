@@ -1,0 +1,77 @@
+.place-holder-container {
+  /* width: 205px; */
+  /* height: 360px; */
+  background-color: #ffffff;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  /* margin: 10px; */
+}
+
+.line2 {
+  width: 40%;
+}
+.line1,
+.line2 {
+  height: 17px;
+  background-color: #f0f0f0;
+  margin: 10px;
+}
+.image-place-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 203px;
+}
+.button-place-holder {
+  /* width: 90%; */
+  height: 40px;
+  object-fit: contain;
+  border-radius: 100px;
+  background-color: #f0f0f0;
+  margin: 10px;
+}
+
+.animated-background {
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: pulse;
+  animation-timing-function: linear;
+  background: #f6f7f8;
+  background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+  position: relative;
+}
+
+.placeholder-square {
+  height: 32px;
+  width: 32px;
+  background-color: #f6f7f8;
+  border-radius: 50%;
+}
+@keyframes pulse {
+  0% {
+    background-position: -468px 0;
+  }
+
+  50% {
+    background-position: 268px 0;
+  }
+
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    background-position: -468px 0;
+  }
+
+  50% {
+    background-position: 268px 0;
+  }
+
+  100% {
+    background-position: 468px 0;
+  }
+}

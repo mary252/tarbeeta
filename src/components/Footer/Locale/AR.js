@@ -1,0 +1,46 @@
+var locale = {
+    follow_us_head_text: "تابعنا",
+    categories_head_text: "الأقسام",
+    customer_service_text: "خدمة العملاء",
+    help_center_link: "مركز المساعدة",
+    contact_us_link: " أتصل بنا على",
+    report_abuse_link: "بلغ عن اساءه",
+    submit_dispute_link: "قدم شكوى",
+    sell_on_tarbeeta_link: "بيع على تربيطة",
+    download_app_head_text: "حمل التطبيق عشان تقدر تتسوق في المحل ",
+    tarbeeta_stores_head_text: "متاجر تربيطة",
+    visit_us_head_text: ":زورنا",
+    address_line1: "٨٥ شارع محمد حسين هيكل، متفرع من عباس العقاد",
+    address_line2: "مدينة نصر",
+    tarbeeta_store_head_text: "عجبك أي منتج وعاوز تشوفه قبل ما تشتريه؟ ممكن تزور فرع تربيطة . كوم | مدينة نصر.",
+    rights_reserved_placeholder: "@ تربيطة 2019. جميع الحقوق محفوظة",
+    corporate_information_link: "معلومات عن الشركة",
+    forums_blog_link: "المنتدى, بلوج",
+    careers_link: "الكريرز",
+    accessibility_link: "الاكسيسيبليتى",
+    terms_and_conditions_link: "الأحكام والشروط",
+    privacy_link: "الخصوصية",
+
+    buy:"شراء",
+    shopping_card:"عربة التسوق",
+    my_list:"قائمتيالإعجبات",
+    e_wallet:"المحفظة الالكترونية",
+    tarbeeta_points:"نقاط تربيطة",
+    faqs:"الاسئلة الشائعة",
+    contact_us:"تواصل معنا",
+    switch_to_buyer_view:"الذهاب إلى موقع المشتري",
+
+    payment:"دفع",
+    cash_on_delivery:"الدفع عند الإستلام",
+    masar:"مصاري ",
+    aman:"أمان",
+    visa:"فيزا",
+    master_card:"ماستر كارد",
+
+    sell:"بيع",
+    how_it_works:"ازاي أبيع",
+    start_shop:" إبدأ بيع",
+    Switch_to_Seller_view:"الذهاب إلى موقع البائع"
+}
+
+module.exports = locale;

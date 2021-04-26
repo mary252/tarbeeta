@@ -1,0 +1,257 @@
+.cover {
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+
+.cover .info {
+  flex: 0.5;
+}
+
+.cover .photo {
+  flex: 0.5;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.cover .info {
+  /* padding: 50px 0px 50px 33px; */
+  padding: 30px 0px 30px 33px;
+}
+
+.cover .avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: center !important;
+  display: inline-block;
+  margin-right: 38px;
+  vertical-align: top;
+  margin-bottom: 17px;
+  background-color: #5b9dd0;
+}
+
+.cover .info h3 {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  color: #444444;
+  margin-bottom: 8px;
+}
+
+.cover .info .det {
+  display: inline-block;
+  vertical-align: top;
+  /* width: 60%; */
+}
+
+.stars {
+  font-size: 12px;
+  margin-bottom: 12px;
+  padding-top: 8px;
+}
+
+.stars div {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.stars div.red,
+.cover .info .actions a.red {
+  color: #f3444a;
+}
+.stars div.grey {
+  color: #dddddd;
+}
+
+.follow-btn {
+  color: #5b98e5;
+  font-size: 14px;
+  border-radius: 20px;
+  border: solid 1px #5b98e5;
+}
+.stars span {
+  margin-left: 9px;
+  color: #5b98e5;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.followers-link {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 12px;
+  color: #5b98e5;
+  border: none;
+}
+
+.followers-link:hover {
+  color: #f3444a;
+}
+
+.followers-link svg {
+  margin-right: 4px;
+  font-size: 12px;
+}
+
+.cover .info p {
+  font-family: Rubik;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #aaaaaa;
+  text-align: justify;
+  margin-bottom: 25px;
+}
+
+.cover .sec-1 {
+  position: relative;
+}
+
+.cover .sec-2 {
+  position: absolute;
+  top: 90px;
+  width: 66%;
+  left: 180px;
+}
+
+.cover .sec-2 .t-button {
+  width: 180px;
+}
+
+.cover .sec-2 p {
+  margin-bottom: 15px;
+  line-height: 1.4;
+  padding-right: 10px;
+}
+
+.cover .info .actions a {
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #5b98e5;
+  margin-right: 28px;
+}
+
+.cover .info .actions a:last-child {
+  margin-right: 0px;
+}
+
+@media only screen and (max-width: 1025px) {
+  .cover {
+    flex-direction: column-reverse;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .cover .photo {
+    height: 141px;
+    flex: auto;
+    border-radius: 5px 5px 0px 0px;
+  }
+
+  .cover .info {
+    /* height: auto; */
+    height: 255px;
+    padding: 11px 15px;
+    flex: auto;
+  }
+
+  .cover .info {
+    padding: 35px 0px 35px 30px;
+  }
+
+  .cover .info .det {
+    width: 59%;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .cover .info {
+    height: 270px;
+    padding: 25px 0px 25px 30px;
+  }
+
+  .cover .sec-2 {
+    top: 90px;
+    width: 70%;
+    left: 180px;
+  }
+
+  .cover .photo {
+    height: 200px;
+  }
+
+  .cover {
+    flex-direction: column-reverse !important;
+    height: 375px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .cover .avatar {
+    width: 85px;
+    height: 85px;
+    margin-right: 14px;
+  }
+
+  .cover .info {
+    height: 300px;
+  }
+
+  .cover .info h3 {
+    font-size: 16px;
+    margin-top: 4px;
+  }
+
+  .cover .info p {
+    font-size: 12px;
+    text-align: left;
+    line-height: 1.4;
+  }
+
+  .sec-1 {
+    margin-bottom: 15px;
+    display: flex;
+  }
+
+  .cover .sec-2 {
+    position: relative;
+    top: 10px;
+    left: auto;
+    width: 90%;
+  }
+
+  .cover .sec-2 p {
+    text-align: justify;
+  }
+}
+.add_product-btn {
+  border-radius: 20px;
+  border: solid 1px #5b98e5;
+  color: #5b98e5;
+  font-size: 14px;
+}

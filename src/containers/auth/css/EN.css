@@ -1,0 +1,84 @@
+.page-title {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #444444;
+  text-transform: uppercase;
+}
+
+.or-separator {
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.or-separator .line {
+    flex: 0.5;
+    height: 1px;
+    border: solid 0.5px #d8d8d8;
+    background-color: #d8d8d8;
+    margin-right: 30px;
+}
+
+.or-separator .line:last-child {
+  margin-right: 0px;
+}
+
+.or-separator p {
+  margin-right: 30px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.form-helper {
+  font-family: Aleo;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #444444;
+}
+
+.form-links span, .form-links a {
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #444444;
+}
+
+.form-foot {
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #444444;
+}
+
+.form-foot a {
+  margin-left: 3px;
+  color: #579fe4;
+  text-transform: uppercase;
+}
+
+.form-wrap .button {
+  width: 165px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 769px) {
+  .page-title {
+    text-align: center;
+    font-size: 19px;
+  }
+}
+

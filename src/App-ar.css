@@ -1,0 +1,567 @@
+@import url("https://fonts.googleapis.com/css?family=Cairo:400,600,700&amp;subset=arabic");
+
+body,
+* {
+  font-family: "Cairo", sans-serif !important;
+}
+
+body,
+*,
+.page-title,
+.menu .item .r {
+  text-align: right;
+}
+
+.bc-wrap label::after {
+  content: "<";
+  margin-right: 10px;
+  margin-left: 7px;
+}
+
+.bc-wrap label::before {
+  content: "";
+  margin: 0;
+}
+
+.burger,
+.page-title__main-title {
+  margin-left: 15px;
+  margin-right: 0px;
+}
+.size-disktop-input-warper {
+  flex-direction: row !important;
+}
+.is-flex,
+.columns,
+.t-button,
+.level,
+.level *,
+.menu .item,
+.bc-wrap,
+/* .filters .criteria .option, */
+.filters .criteria .wrap,
+.category-div .item,
+.price-div,
+.checkbox-div,
+.cover,
+.page-title-container,
+.receipt-row {
+  flex-direction: row-reverse;
+}
+
+.actions {
+  flex-direction: row;
+}
+
+.stars span:not(.sellers .stars span) {
+  margin-left: 0px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+}
+
+.followers-link svg,
+.pending-product svg {
+  margin-right: 0px;
+  margin-left: 5px;
+}
+
+.cover .info {
+  padding-right: 30px;
+  padding-left: 0px;
+}
+
+button span,
+.prod-sec,
+/* .product-card a:not(.card-seller-name), */
+.banner h5,
+/* .product-slider h4,
+.product-slider a, */
+.cover .info h3,
+.filters .criteria h4,
+.address-popup-header,
+.attr-title,
+.tab-label,
+.total-font,
+.section-title,
+.address-info h1,
+.pay-text {
+  font-weight: 700 !important;
+}
+
+.des-info {
+  padding-right: 0px;
+  padding-left: 0px;
+  border-right: 0px;
+  border-left: solid 1px #f0f0f0;
+}
+
+.social-share-button {
+  padding: 0px 0px 15px 20px;
+}
+
+.social-share-button:last-child {
+  padding: 0px 0px 15px 0px;
+}
+
+.home-popup-overlay .wrap h3 {
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.page-title,
+nav a,
+.or-separator p,
+.cat-nav a,
+.hl p,
+.Highlights,
+.des-text,
+.sorting h3,
+.Other-items-text,
+.items-seller-name,
+.money_font2,
+.money_font,
+.seller-title-list,
+.card-seller-name {
+  font-weight: 600;
+}
+
+.banner img,
+.filters-head img {
+  transform: rotateY(180deg);
+}
+
+.banner .wrap {
+  background-image: linear-gradient(to left, #fff 55%, transparent 100%);
+}
+
+.product-card h4,
+.product-card a,
+.cover .info h3 {
+  margin-bottom: 0px;
+}
+
+.checkbox-container,
+.radio-button-container,
+.stars div {
+  margin-left: 5px;
+  margin-right: 0px;
+}
+
+.subcategory-thumb {
+  margin-right: 0px;
+  margin-left: 25px;
+}
+
+.table-head h4,
+.hl p,
+.sorting h3 {
+  margin-right: 0px;
+  margin-left: 20px;
+}
+
+.form-foot a {
+  margin-right: 3px;
+  margin-left: 0px;
+}
+
+.top-bar a,
+.top-bar h4,
+.or-separator p,
+.or-separator .line,
+.cat-nav a:not(.prod-sec),
+.cover .info .actions a {
+  margin-left: 30px;
+  margin-right: 0px;
+}
+
+.seller-phones {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+
+.call-the-seller-wrapper {
+  justify-content: flex-end;
+}
+
+.call-the-seller {
+  padding-right: 18px;
+  padding-left: inherit;
+}
+
+
+.top-bar a {
+  margin-left: 26px;
+}
+
+nav a {
+  margin-left: 29px;
+  margin-right: 0px;
+}
+
+nav a:last-child,
+.top-bar a:last-child,
+.or-separator .line:last-child {
+  margin-left: 0px;
+}
+
+.top-bar a.first {
+  margin-right: 0px;
+  margin-left: 50px;
+}
+
+.t-button svg {
+  margin-left: 7px;
+  margin-right: 0px;
+}
+
+.color-button-warper,
+.size-button {
+  margin-right: 0px;
+  margin-left: 10px;
+}
+.card-seller-pic {
+  margin-right: 0px;
+  margin-left: 5px;
+}
+
+.menu {
+  right: inherit;
+  left: 0px;
+}
+
+.custom-select::after {
+  right: inherit;
+  left: 13px;
+}
+
+.items-seller-pic {
+  margin-right: 0px;
+  margin-left: 13px;
+}
+
+.followers-seller-pic {
+  margin-right: 0px;
+}
+
+.dept h3,
+.top-cover-text {
+  left: inherit;
+  right: 25px;
+}
+
+.rtl,
+p,
+.cover .sec-1,
+.products-count-text,
+.sorting label,
+.pending-product,
+.product-card h4.price,
+.custom-select,
+.filters .criteria,
+.size-disktop-input-warper,
+.labels-div,
+.stars,
+.review-rating,
+.no-of-rates,
+.items-seller-div,
+.tabs,
+.money_font2,
+.money_font,
+.card-seller-name,
+.buyer-navigation,
+.category-nav,
+.drawer {
+  direction: rtl;
+}
+
+.ratings,
+.filters-head,
+.ltr {
+  direction: ltr;
+}
+
+.products_container__row--cell,
+.color-summary {
+  justify-content: flex-end;
+}
+
+.cover .avatar {
+  margin-right: 0;
+  margin-left: 38px;
+}
+
+.seller-name {
+  margin-left: 0px;
+  margin-right: 12px;
+}
+
+.pay-text {
+  margin-right: 0px;
+  margin-left: 12px;
+}
+
+.clickable-square,
+.filters-head img {
+  margin-right: 0px;
+  margin-left: 8px;
+}
+
+.cover .sec-2 {
+  left: inherit;
+  right: 180px;
+}
+.cover .sec-2 p {
+  padding-left: 10px;
+  padding-right: 0px;
+}
+.cover .photo {
+  border-radius: 5px 0px 0px 5px;
+}
+.product_cell {
+  flex-direction: row-reverse;
+}
+.prduct-thumbnail {
+  margin-right: 0px;
+  margin-left: 10px;
+}
+.arabic-address {
+  flex-direction: row;
+}
+
+.ar-radio {
+  flex-direction: row;
+}
+.no-paddin-right-column {
+  padding-left: 0px !important;
+  /* margin-left: 4px; */
+}
+.done-pay-text {
+  margin-right: 0px;
+}
+.ar-radio2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start !important;
+}
+
+.orders-items-info {
+  justify-content: flex-end;
+}
+
+.shipped-by span {
+  margin-left: 4px;
+  margin-right: 0;
+}
+
+.reviews {
+  border-left: solid 1px #f0f0f0;
+  border-right: inherit;
+}
+
+.p-method-mobile {
+  justify-content: flex-end;
+}
+
+.color-popup-color-warper {
+  padding-right: 15px;
+  padding-left: inherit;
+}
+
+.lang-link-header {
+  margin-left: 0 !important;
+}
+
+.header-links-wrapper {
+  justify-content: flex-end;
+}
+
+.size-label-mobile {
+  justify-content: center;
+}
+
+.edit-stock-mobile-column-label {
+  margin-right: 30px;
+}
+
+.stock-info-color {
+  margin-left: 18px;
+}
+
+.address-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.li-map  {
+  direction: rtl;
+}
+
+.drawer .wrap,
+.drawer {
+  right: -150%;
+  left: inherit;
+  /* left: 0px; */
+  /* right: 0; */
+  /* transition: right 0.3s linear; */
+  /* -webkit-transition: right 0.3s linear; */
+  transition: right 0.3s linear;
+  -webkit-transition: right 0.3s linear;
+}
+
+.drawer.active .wrap,
+.buyer-navigation {
+  right: 0;
+  left: inherit;
+  /* right: 0; */
+}
+
+.drawer.active {
+  right: 0;
+}
+
+.buyer-navigation {
+  top: 50px;
+}
+
+.notification-wrap {
+  right: inherit;
+  left: 50px;
+  flex-direction: row-reverse;
+}
+
+.no-gutter {
+  padding-right: 0px;
+}
+
+.magnifying-glass {
+  right: inherit;
+  left: 20px;
+}
+
+.mar-left-5 {
+  margin-left: 5px !important;
+}
+
+.btns-while-cancelled {
+  right: 15px;
+}
+
+.info-cancelled-order {
+  right: 50%;
+  left: inherit;
+  margin-left: 0;
+  margin-right: -50px;
+}
+
+@media screen and (max-width: 768px) {
+  .no-paddin-right-column {
+    padding-left: 0px !important;
+    margin-left: 10px;
+  }
+  .no-paddin-left-column {
+    margin-right: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+
+.no-paddin-left-column {
+  padding-right: 0px !important;
+}
+
+.no-background {
+  display: flex;
+  justify-content: flex-start;
+}
+.notification__close-icon {
+  left: 10px;
+}
+.ar-shop-avatar {
+  padding: 0px;
+}
+.suggestions {
+  direction: rtl;
+}
+/* .edit-product {
+  margin-right: 88px;
+} */
+.edit-price-container {
+  direction: rtl;
+  margin-right: 10px;
+}
+.accordin-header {
+  flex-direction: row-reverse;
+}
+.accordin-arrow {
+  margin-left: 20px;
+}
+.accordin-body {
+  margin-right: 64px;
+}
+.faq-icon {
+  margin-left: 11px;
+}
+.rev {
+  flex-direction: row-reverse;
+}
+.head-phone-container {
+  flex-direction: row-reverse;
+}
+.btn-contactus-container {
+  margin-right: 2px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.notification-container {
+  left: 10%;
+  flex-direction: column;
+  /* align-items: flex-end; */
+}
+.thumb-notification {
+  margin-left: 5px;
+}
+
+.noti-container {
+  flex-direction: row-reverse;
+}
+.title-description-container {
+  align-items: flex-end;
+}
+.clock-time h6 {
+  margin-left: 3px;
+}
+.title-time-container {
+  flex-direction: row-reverse;
+}
+.receipt-input {
+  flex-direction: row;
+  padding: 0 5px 0px 50px;
+}
+
+.code-button {
+  right: inherit;
+  left: 5px;
+}
+
+.notification-raw-avatar {
+  margin-left: 12px;
+}
+.img-pro-selller-ar {
+  margin-bottom: 5px !important;
+}
+.product-card-info-wrapper {
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 769px) {
+
+  .notification-wrap {
+    right: 0;
+    left: 0;
+    top: 20px !important;
+    width: 90%;
+    margin: auto;
+  }
+
+}
